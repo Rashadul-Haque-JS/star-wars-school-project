@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Catalog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Ropa+Sans&display=swap" rel="stylesheet">
+    <script src="js/main.js" type="module" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!------ HEADER ------>
+      <header>
+        <video loop muted>
+          <source src="video/Star_wars.mp4" type="video/mp4">
+        </video>
+        <h1>STAR WARS <span class="heading-1">CATALOG</span></h1>
+        <!------ Text Animation ------>
+        <div class="transit-block">
+          <div class="text-transit">
+            <div class="transit-content">
+              <h4>CODE WARS </h4>
+              <P>Episode: The Final Combat</P>
+              <p>&#x2a;&#x2a;&#x2a;&#x2a;&#x2a;</p>
+              <h4>Title:</h4>
+              <p>"CodeWars In The Horizon"</p>
+              <p>Directed by:</p> 
+              <p>David Lundholm</p>
+              <p>&#x2a;&#x2a;&#x2a;&#x2a;&#x2a;</p>
+              <p>Stars: Linda &#38 Rashadul</p>
+              <p>&#x2a;&#x2a;&#x2a;&#x2a;&#x2a;</p>
+              <p>"The circle is now complete. When I left you, I was but the learner; now I am the master.” .</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!------ MAIN ------>
+      <main>
+        <div class="card-container">
+          <!----- Character list ----->
+          <article class="chars">
+            <h2>Characters</h2>
+            <ul class="characters">
+              <!-- elements added with javascript -->
+            </ul>
+            <span class="preloader char-list"></span>
+            <div class="arrows">
+              <img class="previous" src="img/arrow-left.png" alt="arrow left">
+              <span class="current-page">1</span>
+              <span>/</span>
+              <span class="last-page">9</span>
+              <img class="next" src="img/arrow-right.png" alt="arrow right">
+            </div>
+          </article>
+          <!----- Details ----->
+          <article class="details">
+            <h2>Details</h2>
+            <div class="char-details">
+              <!-- elements added with javascript -->
+            </div>
+            <div class="buttons">
+              <button class="planet btn" disabled>Planet</button>
+              <button class="species btn" disabled>Species</button>
+              <button class="vehicles btn" disabled>Vehicles</button>
+              <button class="starships btn" disabled>Starships</button>
+            </div>
+            <div class="planet-details">
+              <!-- elements added with javascript -->
+            </div>
+          </article>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
